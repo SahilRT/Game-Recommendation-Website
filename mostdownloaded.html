@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <style>
+
+  
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 0, 0, 0.767);
+      }
+
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+        display:flex;
+        justify-content: space-between;
+      }
+
+      .topnav a {
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: #04aa6d;
+        color: white;
+      }
+      .card {
+        background-color: #fff;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        padding:16px 20px;
+        gap: 20px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+        transition: 0.3s;
+        width: 60%;
+        border-radius: 12px;
+      }
+
+      .card:hover {
+        box-shadow: 0px 10px 20px rgba(0, 255, 21, 0.527);
+      }
+
+      img {
+        border-radius: 5px 5px 0 0;
+      }
+
+      .container {
+        padding: 2px 16px;
+      }
+
+      .main {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+      }
+      .icon {
+        height: 100px;
+        width: 100px;
+      }
+      progress[value] {
+        width: 100px;
+        height: 30px;
+      }
+      div p {
+        border: 1px solid rgb(80, 80, 80);
+        padding: 10px;
+        font-family: "Baloo Thambi 2", cursive;
+        font-weight: lighter;
+        line-height: 18px;
+        color: rgb(80, 80, 80);
+        background-color: rgba(80, 80, 80, 0.144);
+        border-radius: 12px;
+      }
+      .container h4 {
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        letter-spacing: 3px;
+        font-size: 24px;
+      }
+      .search {
+        border: 2px solid rgb(255, 255, 255) ;
+        background-color: rgb(94, 94, 94) ;
+        height:38px;
+        margin: 30px 10%;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding : 10px 20px;
+        border-radius: 14px;
+      }
+      .search a:link {
+        text-decoration: none;
+        color:#fff;
+        padding-left:20px
+      }
+      .search a:link:nth-child(1){
+        padding:10px 14px;
+        border-radius: 14px;
+      }
+      .search a:visited {
+        color:#fff;
+      }
+      .search a:hover {
+
+      }
+#currenttab{
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #fff;
+  margin:5px;
+  color:rgb(94, 94, 94);
+  background-color: #fff ;
+}
+    body {
+    background: linear-gradient(to bottom, #ffff99 0%, #33ccff 100%)
+}
+    @media screen and (min-width: 600px) {
+      body {
+        background-color: aquamarine;
+        font-size: 20px;
+        border: 2px solid black;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      body {
+        background-color: lavender;
+        font-size: 30px;
+        border: 2px solid firebrick;
+      }
+    }
+
+    .column {
+      border-left: 5px solid darkslategrey;
+      padding-left: 1%;
+      float: left;
+      width: 12%;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="index1.html">About</a>
+    </div>
+
+
+    <div class="search">
+      <div>
+      <a href="mostdownloaded.html" id="currenttab">Most Downloaded</a>
+      <a href="new.html">Latest</a>
+      <a href="popular.html">Popular</a></div>
+      <div><a href="index.html" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:#fff;font-size: 20px;">X</a></div>
+    </div>
+
+
+    <div class="main">
+      <div class="card">
+        <div>
+         <center>
+          <img src="GAMES IMG/Minecraft.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>4.8/5</i>)</font>
+          &nbsp;<progress value="92" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/MmB9b5njVbA">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>MINECRAFT ⛏💎</b></h4>
+          <p>
+            Minecraft is a 3-D computer game where players can build anything.
+            The game which has been described as like an ‘online Lego’ involves
+            building blocks and creating structures across different
+            environments and terrains. Set in a virtual world the game involves
+            resource gathering, crafting items, building, and combat.
+            <br /><br /><br>
+            <a href="https://www.minecraft.net/en-us/download"><img src="win.webp" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href="https:///www.minecraft.net/help">For More Support</a><br />
+            LEARN MORE:<a href="https:///www.minecraft.net/">To Learn More About Minecraft</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/gtav.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>4.4/5</i>)</font>
+          &nbsp;<progress value="88" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/QkkoHAzjnUs">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>GRAND THEFT AUTO - V</b></h4>
+          <p>
+            In this open-world action game, players assume the role of three criminals whose storylines intersect within 
+            the fictional city of Los Santos. 
+            Players can switch between each character to follow his storyline, completing missions which often 
+            include criminal activities (e.g., stealing cars, executing heists, assassinating targets). 
+            Players use pistols, machine guns, sniper rifles, and explosives to kill various enemies 
+            (e.g., rival gang members); players also have the ability 
+            to shoot non-adversary civilians, though this may negatively affect players' progress as 
+            a penalty system triggers a broad police search.
+.
+            <br /><br /><br>
+            <a href="https://socialclub.rockstargames.com/rockstar-games-launcher"><img src="win.webp" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href="https://support.rockstargames.com/categories/200013306">For More Support</a><br />
+            LEARN MORE: <a href="https://www.rockstargames.com/gta-v">To Learn More About GTA V</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/cod.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>3.5/5</i>)</font>
+          &nbsp;<progress value="70" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/0E44DClsX5Q">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>CALL OF DUTY : WARZONE</b></h4>
+          <p>
+            Warzone is a free-to-play Call of Duty game developed by Infinity Ward and Raven Software 
+            for the Xbox One, PlayStation 4 and Windows. 
+            Warzone is a component of Call of Duty: Modern Warfare and was integrated with Call of Duty: Black Ops Cold War 
+            and Call of Duty: Vanguard. 
+            The game features three main modes, a Battle Royale mode, a Plunder mode, 
+            and a Resurgence mode added with the Season One of Black Ops Cold War.
+            <br /><br /><br>
+            <a href="https://www.callofduty.com/warzone/download"><img src="win.webp" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href="https://support.activision.com/call-of-duty-warzone">For More Support</a><br />
+            LEARN MORE: <a href="https://www.callofduty.com/warzone">To Learn More About Call Of Duty: Warzone</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/valo.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>3.4/5</i>)</font>
+          &nbsp;<progress value="68" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/IhhjcB2ZjIM">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>VALORANT</b></h4>
+          <p>
+            Valorant is a tactical shooting game involving two teams with 5 players in each team. 
+            Every player can sign in and play remotely from anywhere in the world. 
+            Every game has 25 rounds and the team that wins 13 of them first wins the game. 
+            Players can choose their in-game characters called agents at the start of the game
+            <br /><br /><br>
+            <a href="https://playvalorant.com/en-us/"><img src="win.webp" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href="https://support-valorant.riotgames.com/hc/en-us">For More Support</a><br />
+            LEARN MORE: <a href="https://playvalorant.com/en-us/news/announcements/beginners-guide/">To Learn More About Valorant</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/fort.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>4.4/5</i>)</font>
+          &nbsp;<progress value="88" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/H5EfrMzg9JA">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>FORTNITE</b></h4>
+          <p>
+            Fortnite is a survival game where 100 players fight against each other 
+            in player versus player combat to be the last one standing. 
+            It is a fast-paced, action-packed game, not unlike The Hunger Games, 
+            where strategic thinking is a must in order to survive.
+            <br /><br /><br>
+            <a href="https://store.epicgames.com/en-US/p/fortnite"><img src="win.webp" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href="https://www.epicgames.com/fortnite/en-US/help-center">For More Support</a><br />
+            LEARN MORE: <a href="https://www.epicgames.com/fortnite/en-US/chapter-3-season-3">TO Learn More About Fortnite</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/gow.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>5/5</i>)</font>
+          &nbsp;<progress value="100" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/K0u_kAWLJOA">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>GOD OF WAR</b></h4>
+          <p>
+            God of War is an action-adventure game franchise created by David Jaffe at Sony's Santa Monica Studio. 
+            It began in 2005 on the PlayStation 2 video game console, 
+            and has become a flagship title for the PlayStation brand, consisting of ten games across 
+            multiple platforms with an eleventh currently in development.
+            <br /><br /><br>
+            <a href="https://store.steampowered.com/app/1593500/God_of_War/"><img src="win.webp" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href="https://steamcommunity.com/app/1593500/discussions/1/">For More Support</a><br />
+            LEARN MORE: <a href="https://www.ign.com/wikis/god-of-war-2018/God_of_War_Complete_Walkthrough">To Learn More About GOD OF WAR</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

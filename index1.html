@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background: rgb(1, 132, 197);
+      }
+      .containermain {
+        margin: -10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #025981;
+      }
+
+      .containermain ul {
+        list-style-type: none;
+        display: flex;
+        gap: 0;
+      }
+      ul li {
+        padding: 0px 10px;
+      }
+      ul a {
+        padding: 100% 10px;
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-family: "Open Sans", sans-serif;
+      }
+      ul a:hover {
+        color: #03a9f4;
+        letter-spacing: 3px;
+        font-weight: 400;
+      }
+      #current {
+        font-weight: bold;
+        background: rgb(1, 132, 197);
+      }
+      .gamedriver {
+        letter-spacing: 5px;
+        display: inline-block;
+        font-weight: bolder;
+        padding-left: 10px;
+        font-family: "Arial", sans-serif;
+      }
+      .heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+      .header {
+        display: inline-block;
+      }
+      #myCanvas {
+        display: inline-block;
+      }
+      mark {
+        background-color: #fff;
+      }
+      .article {
+        color: white;
+      }
+      footer {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+      .mid {
+        padding: 10px 40px;
+        margin-right: 20%;
+        margin-left: 20%;
+        border: 1px solid #fff;
+        background: #01557c;
+      }
+      .container {
+        color: #01557c;
+        background: rgb(255, 255, 255);
+        transition: transform 1s;
+        padding: 2px;
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+      .container:hover {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="containermain">
+      <div>
+        <p class="gamedriver" style="color: #fff">Game Driver</p>
+      </div>
+      <div>
+        <ul class="">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#" id="current">About Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <br /><br />
+    <div class="mid">
+      <header>
+        <div class="heading">
+          <div>
+            <canvas
+              id="myCanvas"
+              width="200"
+              height="2"
+              style="background-color: rgb(255, 255, 255)"
+            >
+              Your browser does not support the HTML canvas tag.</canvas
+            >
+          </div>
+          <div>
+            <h1 align="center">
+              <mark>ABOUT US</mark>
+            </h1>
+          </div>
+          <div>
+            <canvas
+              id="myCanvas1"
+              width="200"
+              height="2"
+              style="background-color: rgb(255, 255, 255)"
+            >
+              Your browser does not support the HTML canvas tag.</canvas
+            >
+          </div>
+        </div>
+      </header>
+      <br />
+      <h2
+        style="
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          color: white;
+        "
+      >
+        Our Team
+      </h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <center>
+                <h2>
+                  <h1>C</h1>
+                  <b>Charvi Rathod</b>
+                </h2>
+                <p class="title">IT B 10</p>
+                <p>charvi.rathod7391@gmail.com</p>
+                <p>
+                  <a href="https://www.instagram.com/charvirathod/"
+                    ><button class="button">Contact</button></a
+                  >
+                </p>
+              </center>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <center>
+                <h2>
+                  <h1>A</h1>
+                  <b>Akarsh Singh</b>
+                </h2>
+                <p class="title">IT B 30</p>
+                <p>akarshsingh916@gmail.com</p>
+                <p>
+                  <a href="https://www.instagram.com/akars.h_/"
+                    ><button class="button">Contact</button></a
+                  >
+                </p>
+              </center>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <center>
+                <h2>
+                  <h1>P</h1>
+                  <b>Prerna Varma</b>
+                </h2>
+                <p class="title">IT B 49</p>
+                <p>prernavarma@gmail.com</p>
+                <p>
+                  <a href="https://www.instagram.com/prerna__1903/"
+                    ><button class="button">Contact</button></a
+                  >
+                </p>
+              </center>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <center>
+                <h2>
+                  <h1>S</h1>
+                  <b>Sahil Thakur</b>
+                </h2>
+                <p class="title">IT B 48</p>
+                <p>sahilthakurco@gmail.com</p>
+                <p>
+                  <a href="https://www.instagram.com/sahill.rt/"
+                    ><button class="button">Contact</button></a
+                  >
+                </p>
+              </center>
+            </div>
+          </div>
+        </div>
+        <br />
+      </div>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+    <footer>
+      <div>
+        <p><b>Created by Game Driver. © 2020</b></p>
+        <p>
+          <b
+            >Any redistribution or reproduction of part or all of the contents
+            in any form is prohibited other than the following:</b
+          >
+        </p>
+        <ul>
+          <li>
+            you may print or download to a local hard disk extracts for your
+            personal and non-commercial use only
+          </li>
+        </ul>
+        <ul>
+          <li>
+            you may copy the content to individual third parties for their
+            personal use, but only if you acknowledge the website as the source
+            of the material
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <style>
+
+  
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 0, 0, 0.767);
+      }
+
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+                display:flex;
+        justify-content: space-between;
+
+      }
+
+      .topnav a {
+
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: #04aa6d;
+        color: white;
+      }
+      .card {
+        background-color: #fff;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        padding:16px 20px;
+        gap: 20px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+        transition: 0.3s;
+        width: 60%;
+        border-radius: 12px;
+      }
+
+      .card:hover {
+        box-shadow: 0px 10px 20px rgba(0, 255, 21, 0.527);
+      }
+
+      img {
+        border-radius: 5px 5px 0 0;
+      }
+
+      .container {
+        padding: 2px 16px;
+      }
+
+      .main {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+      }
+      .icon {
+        height: 100px;
+        width: 100px;
+      }
+      progress[value] {
+        width: 100px;
+        height: 30px;
+      }
+      div p {
+        border: 1px solid rgb(80, 80, 80);
+        padding: 10px;
+        font-family: "Baloo Thambi 2", cursive;
+        font-weight: lighter;
+        line-height: 18px;
+        color: rgb(80, 80, 80);
+        background-color: rgba(80, 80, 80, 0.144);
+        border-radius: 12px;
+      }
+      .container h4 {
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        letter-spacing: 3px;
+        font-size: 24px;
+      }
+      .search {
+        border: 2px solid rgb(255, 255, 255) ;
+        background-color: rgb(94, 94, 94) ;
+        height:38px;
+        margin: 30px 10%;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding : 10px 20px;
+        border-radius: 14px;
+      }
+      .search a:link {
+        text-decoration: none;
+        color:#fff;
+        padding-left:20px
+      }
+      .search a:link:nth-child(2){
+        padding:10px 14px;
+        border-radius: 14px;
+      }
+      .search a:link:nth-child(1){
+        padding-right:20px;
+      }
+      .search a:visited {
+        color:#fff;
+      }
+      .search a:hover {
+
+      }
+#currenttab{
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #fff;
+  margin:5px;
+  color:rgb(94, 94, 94);
+  background-color: #fff ;
+}
+    body {
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
+
+};
+    @media screen and (min-width: 600px) {
+      body {
+        background-color:lightyellow;
+        font-size: 20px;
+        border: 2px solid black;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      body {
+        background-color: lavender;
+        font-size: 30px;
+        border: 2px solid firebrick;
+      }
+    }
+
+    .column {
+      border-left: 5px solid darkslategrey;
+      padding-left: 1%;
+      float: left;
+      width: 12%;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="index1.html">About</a>
+    </div>
+
+    <div class="search">
+      <div>
+      <a href="mostdownloaded.html">Most Downloaded</a>
+      <a href="new.html" id="currenttab">Latest</a>
+      <a href="popular.html">Popular</a></div>
+      <div><a href="index.html" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:#fff;font-size: 20px;">X</a></div>
+    </div>
+
+
+    <div class="main">
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/FIFA 2022.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>2.3/5</i>)</font>
+          &nbsp;<progress value="46" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/vLj-27T-SEQ">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>FIFA 22</b></h4>
+          <p>
+            Live out your football dreams in FIFA 22 Career Mode as you create a club and lead them 
+            from relegation candidates to global giants, and enjoy an overhauled Player Career 
+            experience that gives you more ways to progress, achieve, and immerse yourself in your
+             Pro’s journey through the game.
+            <br /><br /><br>
+            <a href="https://store.steampowered.com/app/1506830/FIFA_22/?utm_medium=organic&utm_source=franchise_web&utm_content=buylink"><img src="win.webp" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href=https://help.ea.com/en/fifa/fifa-22>For More support</a><br />
+            LEARN MORE: <a href="https://www.pushsquare.com/guides/fifa-22-best-skill-moves-to-learn">To learn more About FIFA 22</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/NBA 2k20.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>4.0/5</i>)</font>
+          &nbsp;<progress value="80" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/FQ7WBnSvjIo">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>NBA 2K20</b></h4>
+          <p>
+            NBA 2K20 is a 2019 basketball simulation video game developed by Visual Concepts and published by 2K Sports, 
+            based on the National Basketball Association (NBA). It is the 21st installment in the NBA 2K franchise, 
+            the successor to NBA 2K19, and the predecessor to NBA 2K21.
+            <br /><br /><br>
+            <a href="https://store.playstation.com/en-in/concept/234460"><img src="ps.png" width="160px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href="https://support.2k.com/hc/en-us">For Support</a><br />
+            LEARN MORE: <a href="https://www.gamesradar.com/nba-2k20-tips/">TO Learn More About NBA 2K20</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/tunic.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>4.4/5</i>)</font>
+          &nbsp;<progress value="88" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/Q5XpgTO7YN0">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>TUNIC</b></h4>
+          <p>
+            Explore a land filled with lost legends, ancient powers, and ferocious monsters 
+            in TUNIC, an isometric action game about a small fox on a big adventure.
+            <br /><br /><br>
+            <a href="https://store.steampowered.com/app/553420/TUNIC/"><img src="win.webp" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href="https://www.youtube.com/watch?v=LMW29X9u8_w">For More Support</a><br />
+            LEARN MORE: <a href="https://www.ign.com/articles/tunic-review-xbox-pc-steam">To Learn More About TUNIC</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/ow.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>4.7/5</i>)</font>
+          &nbsp;<progress value="94" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/0EnkuUfXnsc">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>OLLI OLLI WORLD</b></h4>
+          <p>
+            OlliOlli World is a bold new skateboarding action-platformer that’s bursting with personality.
+             Flip and flow through the vivid and vibrant world of Radlandia, meeting colorful characters 
+             as you grind, trick, and air your way to discover the mystical skate gods on your quest 
+             for Gnarvana.
+            <br /><br /><br>
+            <a href="https://store.steampowered.com/app/1190170/OlliOlli_World/"><img src="win.webp" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href="https://www.gamesradar.com/olliolli-world-tips/">For More Support</a><br />
+            LEARN MORE: <a href="https://olliolliworld.live/">To Learn More About Olli Olli World</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/sop.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>3.4/5</i>)</font>
+          &nbsp;<progress value="68" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/N0WvpMw0Sko">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>STRANGER OF PARADISE : FINAL FANTASY ORIGIN</b></h4>
+          <p>
+            Stranger of Paradise: Final Fantasy Origin is an action role-playing game 
+            in which players take on the role of protagonist Jack Garland, exploring 
+            environments and fighting monsters of the Final Fantasy series.
+            <br /><br /><br>
+            <a href="https://store.epicgames.com/en-US/p/stranger-of-paradise-final-fantasy-origin"><img src="win.webp" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href="https://support.square-enix-games.com/s/sopffo-home?language=en_GB">For More Support</a><br />
+            LEARN MORE:<a href="https://www.ign.com/wikis/stranger-of-paradise-final-fantasy-origin/Walkthrough">To Learn More About Stranger Of Paradise Final Fantasy Origin</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/sifu.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>4.2/5</i>)</font>
+          &nbsp;<progress value="84" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/1FQ1YO3Ks2U">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>SIFU</b></h4>
+          <p>
+            Sifu is the new game of Sloclap, the independent studio behind Absolver. 
+            A third person action game featuring intense hand-to-hand combat, 
+            it puts you in control of a young Kung-Fu student on a path of revenge.
+
+            <br /><br /><br>
+            <a href="https://store.epicgames.com/en-US/p/sifu"><img src="win.webp" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT:<a href="https://www.gamesradar.com/sifu-tips/">For More Support</a><br />
+            LEARN MORE: <a href="https://eip.gg/sifu/guides/walkthrough/">To Learn More About SIFU</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

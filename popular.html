@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <style>
+
+  
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 0, 0, 0.767);
+      }
+
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+        display:flex;
+        justify-content: space-between;
+      }
+
+      .topnav a {
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: #04aa6d;
+        color: white;
+      }
+      .card {
+        background-color: #fff;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        padding:16px 20px;
+        gap: 20px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+        transition: 0.3s;
+        width: 60%;
+        border-radius: 12px;
+      }
+
+      .card:hover {
+        box-shadow: 0px 10px 20px rgba(0, 255, 21, 0.527);
+      }
+
+      img {
+        border-radius: 5px 5px 0 0;
+      }
+
+      .container {
+        padding: 2px 16px;
+      }
+
+      .main {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+      }
+      .icon {
+        height: 100px;
+        width: 100px;
+      }
+      progress[value] {
+        width: 100px;
+        height: 30px;
+      }
+      div p {
+        border: 1px solid rgb(80, 80, 80);
+        padding: 10px;
+        font-family: "Baloo Thambi 2", cursive;
+        font-weight: lighter;
+        line-height: 18px;
+        color: rgb(80, 80, 80);
+        background-color: rgba(80, 80, 80, 0.144);
+        border-radius: 12px;
+      }
+      .container h4 {
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        letter-spacing: 3px;
+        font-size: 24px;
+      }
+      .search {
+        border: 2px solid rgb(255, 255, 255) ;
+        background-color: rgb(94, 94, 94) ;
+        height:38px;
+        margin: 30px 10%;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding : 10px 20px;
+        border-radius: 14px;
+      }
+      .search a:link {
+        text-decoration: none;
+        color:#fff;
+        padding-left:20px
+      }
+      .search a:link:nth-child(3){
+        padding:10px 14px;
+        border-radius: 14px;
+      }
+      .search a:link:nth-child(2){
+        padding-right:20px;
+      }
+      .search a:visited {
+        color:#fff;
+      }
+      .search a:hover {
+
+      }
+#currenttab{
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #fff;
+  margin:5px;
+  color:rgb(94, 94, 94);
+  background-color: #fff ;
+}
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="index1.html">About</a>
+    </div>
+
+
+    <div class="search">
+      <div>
+      <a href="mostdownloaded.html">Most Downloaded</a>
+      <a href="new.html">Latest</a>
+      <a href="popular.html" id="currenttab">Popular</a></div>
+      <div><a href="index.html" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:#fff;font-size: 20px;">X</a></div>
+    </div>
+
+
+    <div class="main">
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/Elden Ring.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>4.4/5</i>)</font>
+          &nbsp;<progress value="88" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/K_03kFqWfqs">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>ELDEN RING</b></h4>
+          <p>
+            Elden Ring is an action role-playing game played in a third-person perspective with gameplay
+             focusing on combat and exploration; it features elements similar to those found in other games
+              developed by FromSoftware, such as the Souls series, Bloodborne, and Sekiro.
+            <br /><br /><br>
+            <a href="https://store.bandainamcoent.eu/eu/product/679411/elden-ring-pc-download"><img src="win.webp" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href="https://service-en.bandainamcoent.eu/">For More Support</a><br />
+            LEARN MORE: <a href="https://www.ign.com/articles/elden-ring-best-tips-secrets-and-guides">To Learn More</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/Forza Horizon 5.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>4.4/5</i>)</font>
+          &nbsp;<progress value="88" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/U3mEOHvSUyw">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>FORZA HORIZON 5</b></h4>
+          <p>
+            Blast off to the visually stunning, exhilarating Horizon Hot Wheels Park in the clouds high above Mexico. 
+            Race 10 amazing new cars on the fastest, most extreme tracks ever devised. 
+            Design, build, and share your own Hot Wheels adventure. Requires 
+            <br /><br /><br>
+            <a href="https://store.steampowered.com/app/1551360/Forza_Horizon_5/"><img src="win.webp" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href="https://support.forzamotorsport.net/hc/en-us/categories/1500002179721-Forza-Horizon-5">For More Support</a><br />
+            LEARN MORE: <a href="https://www.digitaltrends.com/gaming/forza-horizon-5-beginners-guide/">To Learn More</a>"
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/gwt.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>4.3/5</i>)</font>
+          &nbsp;<progress value="86" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/XWpsAKYa7NQ">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>GHOSTWIRE: TOKYO</b></h4>
+          <p>
+            Ghostwire: Tokyo is an action-adventure game played from a first-person perspective. 
+            The player can use various psychic and paranormal abilities to defeat the ghosts and spirits haunting Tokyo.
+            Combat director Shinichiro Hara described the combat as "karate meets magic", as the player character 
+            utilizes hand movements inspired by Kuji-kiri hand gestures to cast spells. When an enemy loses most 
+            of their health, its core is exposed and the player can use takedown moves to destroy it. 
+            By defeating these spirits and collecting Yokai, the character will collect spirit points and 
+            resources used to upgrade their abilities.
+            <br /><br /><br>
+            <a href="https://store.steampowered.com/app/1475810/Ghostwire_Tokyo/"><img src="win.webp" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href="https://help.bethesda.net/">For More Support</a><br />
+            LEARN MORE: <a href="https://www.thegamer.com/ghostwire-tokyo-beginners-tips-tricks-guide/">To Learn More</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/mhr.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>4.5/5</i>)</font>
+          &nbsp;<progress value="90" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/TdCec2GRg-w">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>MONSTER HUNTER RISE</b></h4>
+          <p>
+            As with previous Monster Hunter titles, Monster Hunter Rise has the player take the role of a Hunter, 
+            tasked with slaying or capturing large monsters using a variety of weapons, tools, and
+            environmental features to damage and weaken them while surviving their attacks.
+            <br /><br /><br>
+            <a href="https://www.nintendo.co.uk/Games/Nintendo-Switch-games/MONSTER-HUNTER-RISE-1843169.html"><img src="nin.png" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href="https://www.capcom.com/mhwsupport/">For More Support</a><br />
+            LEARN MORE: <a href="https://www.polygon.com/22344425/beginners-guide-weapons-quests-best-controller">To Learn More</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/dl2.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>3.9/5</i>)</font>
+          &nbsp;<progress value="78" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/2MD4gTitmzw">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>DYING LIGHT 2</b></h4>
+          <p>
+            Dying Light 2 Stay Human is an action role-playing survival horror game 
+            featuring a zombie apocalyptic-themed open world. Set 22 years after Dying Light, 
+            it stars a new protagonist named Aiden Caldwell (voiced by Jonah Scott), 
+            who is equipped with various parkour skills.
+            <br /><br /><br>
+            <a href="https://store.steampowered.com/app/534380/Dying_Light_2_Stay_Human/"><img src="win.webp" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href="https://dyinglight2.support.techland.pl/en/support/solutions">For More Support</a><br />
+            LEARN MORE: <a href="https://www.gamesradar.com/dying-light-2-guide/">To Learn More</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <center>
+          <img src="GAMES IMG/lsw.png" alt="Avatar" class="icon" />
+          <br /><br>
+          <font size="2"style="font-family:Roboto">Rating (<i>4.4/5</i>)</font>
+          &nbsp;<progress value="88" max="100"></progress><br><br>
+          <iframe width="420" height="345" src="https://www.youtube.com/embed/n49TsZAwFEs">
+          </iframe>
+        </center>
+        </div>
+        <div class="container">
+          <h4><b style="font-family: 'Kdam Thmor Pro', sans-serif;"></b>LEGO® STAR WARS™: THE SKYWALKER SAGA</b></h4>
+          <p>
+            Play through the adventures of Anakin Skywalker, 
+            help Luke Skywalker battle Darth Vader and Emperor Palpatine, and duel 
+            for the fate of the galaxy with Rey and Kylo Ren in the new LEGO video game that 
+            immerses you in Star Wars like you've never seen it.
+            <br /><br /><br>
+            <a href="https://store.steampowered.com/app/920210/LEGO_Star_Wars_The_Skywalker_Saga/"><img src="win.webp" width="125px"></a>
+            <br /><br /><br>
+            SUPPORT: <a href="https://legogamessupport.wbgames.com/hc/en-us/categories/360005025334-LEGO-Star-Wars-The-Skywalker-Saga">For More Support</a><br />
+            LEARN MORE: <a href="https://www.starwars.com/games-apps/lego-star-wars-the-skywalker-saga">To Learn More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
